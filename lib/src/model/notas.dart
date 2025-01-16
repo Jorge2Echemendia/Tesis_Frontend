@@ -38,7 +38,7 @@ class Notas {
         motivo: json["motivo"],
         contenido: json["contenido"],
         frecuencia: json["frecuencia"] as int,
-        horaProgramada: DateTime.parse(json["hora_programada"]).subtract(const Duration(hours: 5)),
+        horaProgramada: DateTime.parse(json["hora_programada"]),
         tiempoMaximoDia: json["tiempo_de_intervalo"],
         recordatorio:json["recordatorio"],
         recordatorioContinuo:json["recordatorio_continuo"],
